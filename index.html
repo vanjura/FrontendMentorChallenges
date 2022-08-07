@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #1c1c27;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #2c2d3d;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #53567a;
+      }
+      body {
+        margin: 0;
+        background-color: #1c1c27;
+        display: flex;
+        justify-content: center;
+        font-family: "Montserrat", sans-serif;
+      }
+      main {
+        width: 1200px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 1rem;
+        padding-top: 4%;
+        padding-bottom: 4%;
+      }
+      .card {
+        height: 100%;
+        background-color: #28293d;
+        border-radius: 20px;
+        overflow: hidden;
+      }
+      .preview {
+        width: 100%;
+        transition: transform 0.5s;
+      }
+      .preview:hover {
+        transform: scale(1.1);
+      }
+      .image-container {
+        overflow: hidden;
+        height: 14.5rem;
+      }
+      .ellipsis {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .links-container {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-left: 1rem;
+      }
+      .title {
+        font-size: 1.2rem;
+        color: #e2e3e4;
+      }
+      .card-title-container {
+        display: flex;
+        justify-content: space-between;
+      }
+      .languages {
+        display: flex;
+        gap: 1rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-top: 0.5rem;
+      }
+      .html {
+        color: #00cfdd;
+        text-shadow: 1px 0px 10px #00cfdd;
+      }
+      .css {
+        color: #05c270;
+        text-shadow: 1px 0px 10px #05c270;
+      }
+      .js {
+        color: #ff3b3b;
+        text-shadow: 1px 0px 10px #ff3b3b;
+      }
+      .api {
+        color: #ff8801;
+        text-shadow: 1px 0px 10px #ff8801;
+      }
+      .container {
+        padding: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="image-container">
+          <a
+            href="https://vanjura.github.io/ExpensesChartComponent/"
+            target="_blank"
+          >
+            <img
+              class="preview"
+              src="./images/ExpensesChartComponent.png"
+              alt="Expenses Chart Component"
+            />
+          </a>
+        </div>
+        <div class="container">
+          <div class="card-title-container">
+            <div class="title ellipsis">Expenses Chart Component</div>
+            <div class="links-container">
+              <a
+                href="https://github.com/vanjura/ExpensesChartComponent"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./images/iconmonstr-github-1.svg"
+                  alt=""
+                  height="20px"
+                />
+              </a>
+              <a
+                href="https://www.frontendmentor.io/solutions/expenses-chart-component-43B5eWr-sF"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./images/google_plus_reshare_FILL0_wght400_GRAD0_opsz48.svg"
+                  alt=""
+                  height="25px"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="languages">
+            <div class="html">HTML</div>
+            <div class="css">CSS</div>
+            <div class="js">JS</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <a
+            href="https://vanjura.github.io/NFTPreviewCardComponent/"
+            target="_blank"
+            ><img
+              class="preview"
+              src="./images/NFTPreviewCardComponent.png"
+              alt="Expenses Chart Component"
+          /></a>
+        </div>
+        <div class="container">
+          <div class="card-title-container">
+            <div class="title ellipsis">NFT Preview Card Component</div>
+            <div class="links-container">
+              <a
+                href="https://github.com/vanjura/NFTPreviewCardComponent"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./images/iconmonstr-github-1.svg"
+                  alt=""
+                  height="20px"
+                />
+              </a>
+              <a
+                href="https://www.frontendmentor.io/solutions/nft-preview-card-component-t4jarFYu7H"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./images/google_plus_reshare_FILL0_wght400_GRAD0_opsz48.svg"
+                  alt=""
+                  height="25px"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="languages">
+            <div class="html">HTML</div>
+            <div class="css">CSS</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <a
+            href="https://vanjura.github.io/ProductPreviewCardComponent/"
+            target="_blank"
+            ><img
+              class="preview"
+              src="./images/ProductPreviewCardComponent.png"
+              alt="Expenses Chart Component"
+          /></a>
+        </div>
+        <div class="container">
+          <div class="card-title-container">
+            <div class="title ellipsis">Product Preview Card Component</div>
+            <div class="links-container">
+              <a
+                href="https://github.com/vanjura/ProductPreviewCardComponent"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./images/iconmonstr-github-1.svg"
+                  alt=""
+                  height="20px"
+                />
+              </a>
+              <a
+                href="https://www.frontendmentor.io/solutions/product-preview-card-component-jnJ1AbBguO"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./images/google_plus_reshare_FILL0_wght400_GRAD0_opsz48.svg"
+                  alt=""
+                  height="25px"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="languages">
+            <div class="html">HTML</div>
+            <div class="css">CSS</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <a href="https://vanjura.github.io/QR-code-component/" target="_blank"
+            ><img
+              class="preview"
+              src="./images/QR-code-component.png"
+              alt="Expenses Chart Component"
+          /></a>
+        </div>
+        <div class="container">
+          <div class="card-title-container">
+            <div class="title ellipsis">QR Code Component</div>
+            <div class="links-container">
+              <a
+                href="https://github.com/vanjura/QR-code-component"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./images/iconmonstr-github-1.svg"
+                  alt=""
+                  height="20px"
+                />
+              </a>
+              <a
+                href="https://www.frontendmentor.io/solutions/qr-code-component-qZU90n1fsz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./images/google_plus_reshare_FILL0_wght400_GRAD0_opsz48.svg"
+                  alt=""
+                  height="25px"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="languages">
+            <div class="html">HTML</div>
+            <div class="css">CSS</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
